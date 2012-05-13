@@ -1,2 +1,2 @@
-require './hello'
+require './shanivaar'
 run Sinatra::Application
