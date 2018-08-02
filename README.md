@@ -1,3 +1,1 @@
-आज शनिवार है क्या?
-
-http://www.shanivaar.tk/
+[आज शनिवार है क्या?](https://cggaurav.net/shanivaar/)

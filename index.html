@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<style type="text/css">
+		   .saturday {
+		   		position: absolute;
+			   	margin: 0 auto;
+			   	font-weight: bold;
+			   	font-size: 100px;
+			   	left: 50%;
+			   	transform: translateX(-50%);
+		   }
+
+		   #yes {
+		   		color: green;
+		   }
+
+		   #no {
+		   		color: red;
+		   }
+
+		   footer{
+			    font-family: Arial, "MS Trebuchet", sans-serif;
+			    font-size: 13px;
+			    bottom: 0;
+			    position: absolute;
+		   }
+		</style>
+		<title>शनिवार</title>
+		<meta name="description" content="आज शनिवार है क्या?">
+	</head>
+	<body>
+		<div class="saturday" id="yes">हां</div class="saturday">
+		<div class="saturday" id="no">नहीं</div class="saturday">
+
+		<footer>
+			<p> I was bored | <a href="https://github.com/cggaurav/shanivaar">code</a></p>
+		</footer>
+
+
+		<script>
+			var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+			var date = new Date()
+			var day = date.getDay()
+
+			if (DAYS[day] == 'Saturday') {
+				document.getElementById('yes').style.display = 'block'
+				document.getElementById('no').style.display = 'none'
+			} else {
+				document.getElementById('yes').style.display = 'none'
+				document.getElementById('no').style.display = 'block'
+			}
+		</script>
+	</body>
+<html>
